@@ -18,10 +18,10 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
 			</array>
 			<key>description</key>
-			<string>WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.</string>
+			<string>Browse and transfer files between your Mac computer and your Android device.</string>
 			<key>developer</key>
 			<string>Google, Inc.</string>
 			<key>display_name</key>

@@ -18,24 +18,24 @@
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>Microsoft AU Daemon.app</string>
-				<string>EdgeUpdater.app</string>
 				<string>Microsoft Edge Helper (Plugin).app</string>
-				<string>Microsoft Edge Helper (Renderer).app</string>
 				<string>Microsoft Update Assistant.app</string>
+				<string>Microsoft AutoUpdate.app</string>
 				<string>Microsoft Edge.app</string>
 				<string>Microsoft Edge Helper (Alerts).app</string>
-				<string>Microsoft Error Reporting.app</string>
+				<string>Microsoft Edge Helper (Renderer).app</string>
 				<string>Microsoft Edge Helper (GPU).app</string>
-				<string>Microsoft AutoUpdate.app</string>
 				<string>Microsoft Edge Helper.app</string>
+				<string>EdgeUpdater.app</string>
+				<string>Microsoft Error Reporting.app</string>
+				<string>Microsoft AU Daemon.app</string>
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
 			</array>
 			<key>description</key>
-			<string>A digital notebook application that gives people one place to gather notes and information. .</string>
+			<string>A chromium-based browser by Microsoft.</string>
 			<key>developer</key>
 			<string>Microsoft Corporation</string>
 			<key>display_name</key>
@@ -53,14 +53,6 @@
 	<key>Process</key>
 	<array>
 		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>additional_pkginfo</key>
-				<dict>
-					<key>version</key>
-					<string>%version%</string>
-				</dict>
-			</dict>
 			<key>Processor</key>
 			<string>MunkiPkginfoMerger</string>
 		</dict>

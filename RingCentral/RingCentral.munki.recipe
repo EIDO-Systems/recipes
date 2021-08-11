@@ -32,10 +32,10 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
 			</array>
 			<key>description</key>
-			<string>Professional greeter for incoming calls.</string>
+			<string>Professional VoIP client for making and receiving calls.</string>
 			<key>developer</key>
 			<string>RingCentral, Inc.</string>
 			<key>display_name</key>

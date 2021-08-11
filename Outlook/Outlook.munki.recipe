@@ -29,10 +29,11 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
+				<string>provisioning</string>
 			</array>
 			<key>description</key>
-			<string>Rebuild Outlook Database.</string>
+			<string>Outlook desktop client from Microsoft.</string>
 			<key>developer</key>
 			<string>Microsoft Corporation</string>
 			<key>display_name</key>

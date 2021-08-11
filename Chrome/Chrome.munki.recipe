@@ -29,7 +29,8 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
+				<string>provisioning</string>
 			</array>
 			<key>description</key>
 			<string>Modern and fast Web browser.</string>
@@ -49,18 +50,6 @@
 	<string>com.eidosystems.download.Chrome</string>
 	<key>Process</key>
 	<array>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>additional_pkginfo</key>
-				<dict>
-					<key>version</key>
-					<string>%version%</string>
-				</dict>
-			</dict>
-			<key>Processor</key>
-			<string>MunkiPkginfoMerger</string>
-		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

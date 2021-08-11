@@ -20,10 +20,10 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
 			</array>
 			<key>description</key>
-			<string>The KMPlayer is a versatile media player which can cover various types of container format.</string>
+			<string>Simple archive extractor for Mac OS.</string>
 			<key>developer</key>
 			<string></string>
 			<key>display_name</key>

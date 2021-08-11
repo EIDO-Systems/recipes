@@ -20,12 +20,12 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
 			</array>
 			<key>description</key>
 			<string>Override energy saver settings and keep your Mac awake.</string>
 			<key>developer</key>
-			<string></string>
+			<string>William Gustafson</string>
 			<key>display_name</key>
 			<string>Amphetamine</string>
 			<key>name</key>

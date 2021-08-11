@@ -26,10 +26,11 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
+				<string>provisioning</string>
 			</array>
 			<key>description</key>
-			<string>A digital notebook application that gives people one place to gather notes and information. .</string>
+			<string>Chat and video calls application from Microsoft.</string>
 			<key>developer</key>
 			<string>Microsoft Corporation</string>
 			<key>display_name</key>

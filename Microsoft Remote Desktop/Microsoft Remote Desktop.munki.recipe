@@ -26,10 +26,10 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
 			</array>
 			<key>description</key>
-			<string>A digital notebook application that gives people one place to gather notes and information. .</string>
+			<string>Microsoft Remote Desktop connection client.</string>
 			<key>developer</key>
 			<string>Microsoft Corporation</string>
 			<key>display_name</key>

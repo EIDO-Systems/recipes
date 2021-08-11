@@ -29,10 +29,11 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
+				<string>provsioning</string>
 			</array>
 			<key>description</key>
-			<string>Two-player word game.</string>
+			<string>Word processor from Microsoft.</string>
 			<key>developer</key>
 			<string>Microsoft Corporation</string>
 			<key>display_name</key>

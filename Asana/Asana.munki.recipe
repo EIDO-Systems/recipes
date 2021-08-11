@@ -18,10 +18,11 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
+				<string>provisioning</string>
 			</array>
 			<key>description</key>
-			<string>Enjoy Asana offline.</string>
+			<string>Asana is a task and project management application to help you stay organised.</string>
 			<key>developer</key>
 			<string>Asana, Inc.</string>
 			<key>display_name</key>

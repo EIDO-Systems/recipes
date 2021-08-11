@@ -18,10 +18,10 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
 			</array>
 			<key>description</key>
-			<string>Design quickly and confidently with Adobe Illustrator software. Sophisticated tools for drawing and typography, along with advanced color controls and creative effects, provide a comprehensive vector graphics environment.</string>
+			<string>Removes all installed Adobe Creative Cloud applications, and all associated configuration files. Helpful for troubleshooting Adobe CC issues such as failed upgrades or sign-ins.</string>
 			<key>developer</key>
 			<string>Adobe Systems, Inc.</string>
 			<key>display_name</key>

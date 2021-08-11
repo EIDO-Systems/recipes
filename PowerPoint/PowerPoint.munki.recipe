@@ -29,7 +29,7 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
 			</array>
 			<key>description</key>
 			<string>Quickly create, edit, view, present or share presentations.</string>

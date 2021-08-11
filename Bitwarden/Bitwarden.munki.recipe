@@ -18,10 +18,10 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
 			</array>
 			<key>description</key>
-			<string>Password management system.</string>
+			<string>Open source password management system.</string>
 			<key>developer</key>
 			<string>8bit Solutions LLC</string>
 			<key>display_name</key>

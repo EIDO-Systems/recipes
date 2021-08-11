@@ -27,7 +27,8 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
+				<string>provisioning</string>
 			</array>
 			<key>description</key>
 			<string>Access your Microsoft OneDrive cloud storage account.</string>
