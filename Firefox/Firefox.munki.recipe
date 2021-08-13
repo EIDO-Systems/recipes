@@ -20,6 +20,10 @@
 			<array>
 				<string>default</string>
 			</array>
+			<key>categories</key>
+			<array>
+				<string>Productivity</string>
+			</array>
 			<key>description</key>
 			<string>Fast, safe Web browser.</string>
 			<key>developer</key>

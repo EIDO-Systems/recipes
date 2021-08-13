@@ -34,6 +34,10 @@
 			<array>
 				<string>default</string>
 			</array>
+			<key>categories</key>
+			<array>
+				<string>Productivity</string>
+			</array>
 			<key>description</key>
 			<string>A chromium-based browser by Microsoft.</string>
 			<key>developer</key>

@@ -20,6 +20,10 @@
 			<array>
 				<string>default</string>
 			</array>
+			<key>categories</key>
+			<array>
+				<string>Tools</string>
+			</array>
 			<key>description</key>
 			<string>Uninstall your apps easily.</string>
 			<key>developer</key>

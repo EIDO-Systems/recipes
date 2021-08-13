@@ -20,6 +20,10 @@
 			<array>
 				<string>default</string>
 			</array>
+			<key>categories</key>
+			<array>
+				<string>Security</string>
+			</array>
 			<key>description</key>
 			<string>Open source password management system.</string>
 			<key>developer</key>

@@ -20,10 +20,14 @@
 			<array>
 				<string>default</string>
 			</array>
+			<key>categories</key>
+			<array>
+				<string>Productivity</string>
+			</array>
 			<key>description</key>
 			<string>Minimalist clipboard management for macOS</string>
 			<key>developer</key>
-			<string>Steve COOK</string>
+			<string>Steve Cook</string>
 			<key>display_name</key>
 			<string>Jumpcut</string>
 			<key>name</key>

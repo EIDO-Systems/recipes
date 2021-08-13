@@ -20,10 +20,14 @@
 			<array>
 				<string>default</string>
 			</array>
+			<key>categories</key>
+			<array>
+				<string>Chat &amp; Video</string>
+			</array>
 			<key>description</key>
 			<string>Voice-over-internet phone and chat software.</string>
 			<key>developer</key>
-			<string>Skype Communications S.a.r.l</string>
+			<string>Microsoft Corporation</string>
 			<key>display_name</key>
 			<string>Skype</string>
 			<key>name</key>

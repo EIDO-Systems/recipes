@@ -27,6 +27,10 @@
 				<string>Google Chrome Helper (GPU).app</string>
 				<string>Google Chrome Helper.app</string>
 			</array>
+			<key>categories</key>
+			<array>
+				<string>Productivity</string>
+			</array>
 			<key>catalogs</key>
 			<array>
 				<string>default</string>

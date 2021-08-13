@@ -22,6 +22,10 @@
 			<array>
 				<string>default</string>
 			</array>
+			<key>categories</key>
+			<array>
+				<string>Tools</string>
+			</array>
 			<key>description</key>
 			<string>Override energy saver settings and keep your Mac awake.</string>
 			<key>developer</key>

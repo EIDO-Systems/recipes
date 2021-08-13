@@ -29,6 +29,10 @@
 				<string>default</string>
 				<string>provisioning</string>
 			</array>
+			<key>categories</key>
+			<array>
+				<string>Chat &amp; Video</string>
+			</array>
 			<key>description</key>
 			<string>Chat and video calls application from Microsoft.</string>
 			<key>developer</key>
