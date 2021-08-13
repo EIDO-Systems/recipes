@@ -21,10 +21,8 @@
 				<string>default</string>
 				<string>provisioning</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Security</string>
-			</array>
+			<key>category</key>
+			<string>Security</string>
 			<key>description</key>
 			<string>For Mac users in an Enterprise environment, this app gives the User control over administration of their machine by elevating their level of access to Administrator privileges on macOS.  Users can set the time frame using Preferences to perform specific tasks such as install or remove an application.</string>
 			<key>developer</key>

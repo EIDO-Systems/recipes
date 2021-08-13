@@ -21,9 +21,7 @@
 				<string>default</string>
 			</array>
 			<key>categories</key>
-			<array>
-				<string>Productivity</string>
-			</array>
+			<string>Productivity</string>
 			<key>description</key>
 			<string>Minimalist clipboard management for macOS</string>
 			<key>developer</key>

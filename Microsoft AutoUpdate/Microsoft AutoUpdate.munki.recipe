@@ -23,10 +23,8 @@
 				<string>Microsoft AutoUpdate.app</string>
 				<string>Microsoft Error Reporting.app</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Tools</string>
-			</array>
+			<key>category</key>
+			<string>Tools</string>
 			<key>catalogs</key>
 			<array>
 				<string>default</string>

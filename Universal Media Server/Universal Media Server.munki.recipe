@@ -20,10 +20,8 @@
 			<array>
 				<string>default</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Tools</string>
-			</array>
+			<key>category</key>
+			<string>Misc.</string>
 			<key>description</key>
 			<string>A DLNA, UPnP and HTTP(S) Media Server.</string>
 			<key>developer</key>

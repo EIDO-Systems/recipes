@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.VLC</string>
+	<key>Input</key>
+	<dict>
+		<key>ARCH</key>
+		<string>x86_64</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>VLC</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://update.videolan.org/vlc/sparkle/vlc-intel64.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>default</string>
+			</array>
+			<key>category</key>
+			<string>Tools</string>
+			<key>description</key>
+			<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.</string>
+			<key>display_name</key>
+			<string>VLC Media Player</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>supported_architectures</key>
+			<array>
+				<string>%ARCH%</string>
+			</array>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.VLC</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.VLC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>84bf53121f514e3429003ae381c6247dc90ebcde</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/VLC/VLC.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>8d4cff49a581f88b1eb3711377e6765100f09fa74f5adfa2787d75e952a64823</string>
+			</dict>
+			<key>com.github.autopkg.munki.VLC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>84bf53121f514e3429003ae381c6247dc90ebcde</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/VLC/VLC.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>4d0b91a32c61433d9b71fe366e5e879b95c8d9bc2ea01a3793e708f50467cf99</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

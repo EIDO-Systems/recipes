@@ -21,10 +21,8 @@
 				<string>default</string>
 				<string>provisioning</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Productivity</string>
-			</array>
+			<key>category</key>
+			<string>Productivity</string>
 			<key>description</key>
 			<string>Asana is a task and project management application to help you stay organised.</string>
 			<key>developer</key>

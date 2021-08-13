@@ -22,10 +22,8 @@
 			<array>
 				<string>default</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Chat &amp; Video</string>
-			</array>
+			<key>category</key>
+			<string>Chat &amp; Video</string>
 			<key>description</key>
 			<string>Collaborative communication app.</string>
 			<key>developer</key>

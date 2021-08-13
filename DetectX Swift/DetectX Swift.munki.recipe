@@ -21,10 +21,8 @@
 				<string>default</string>
 				<string>provisioning</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Security</string>
-			</array>
+			<key>category</key>
+			<string>Security</string>
 			<key>description</key>
 			<string>Detects and finds malicious add-ons and viruses that adware medic used to before Malwarebytes took over.</string>
 			<key>developer</key>

@@ -21,9 +21,7 @@
 				<string>default</string>
 			</array>
 			<key>categories</key>
-			<array>
-				<string>Productivity</string>
-			</array>
+			<string>Productivity</string>
 			<key>description</key>
 			<string>Fast, safe Web browser.</string>
 			<key>developer</key>

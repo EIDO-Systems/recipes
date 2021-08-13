@@ -5,15 +5,15 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of AppCleaner and imports it into Munki.</string>
+	<string>Downloads the latest version of YT Music and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.eidosystems.munki.AppCleaner</string>
+	<string>com.eidosystems.munki.YTMusic</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>AppCleaner</string>
+		<string>YT Music</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,13 +21,13 @@
 				<string>default</string>
 			</array>
 			<key>category</key>
-			<string>Tools</string>
+			<string>Misc.</string>
 			<key>description</key>
-			<string>Uninstall your apps easily.</string>
+			<string>YouTube Music client application for macOS.</string>
 			<key>developer</key>
-			<string>Julien Ramseier</string>
+			<string>Cocoon Development Ltd</string>
 			<key>display_name</key>
-			<string>AppCleaner</string>
+			<string>YT Music</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -37,7 +37,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.eidosystems.download.AppCleaner</string>
+	<string>com.eidosystems.download.YTMusic</string>
 	<key>Process</key>
 	<array>
 		<dict>

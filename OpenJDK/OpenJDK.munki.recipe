@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.OpenJDK</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>OpenJDK</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>default</string>
+			</array>
+			<key>category</key>
+			<string>Tools</string>
+			<key>description</key>
+			<string>OpenJDK is a free and open-source implementation of the Java Platform, Standard Edition.</string>
+			<key>developer</key>
+			<string>OpenJDK</string>
+			<key>display_name</key>
+			<string>OpenJDK</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+			<key>uninstallable</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.munki.OpenJDK</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.download.OpenJDK</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e7010c6467c8f7865ed077b0771e44372d4cdf5c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/OpenJDK/OpenJDK.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c9ccf6e45be540a52eb9feac2fc33e9fe7af8b8e63035c0816defff75897c721</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.munki.OpenJDK</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e7010c6467c8f7865ed077b0771e44372d4cdf5c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/OpenJDK/OpenJDK.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>9a547bced4c077362325a5696360c0973dffea5c64c5a3fe70fc15d816263dec</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.pkg.OpenJDK</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e7010c6467c8f7865ed077b0771e44372d4cdf5c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/OpenJDK/OpenJDK.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>4d16751de3d792d0c01d9838bb1b41e3575837ac5a547b19e95e48e733ed7dbc</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

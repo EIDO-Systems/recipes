@@ -32,10 +32,8 @@
 				<string>default</string>
 				<string>provisioning</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Productivity</string>
-			</array>
+			<key>category</key>
+			<string>Productivity</string>
 			<key>description</key>
 			<string>Create, edit, view and share you spreadsheets.</string>
 			<key>developer</key>

@@ -20,10 +20,8 @@
 			<array>
 				<string>default</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Tools</string>
-			</array>
+			<key>category</key>
+			<string>Tools</string>
 			<key>description</key>
 			<string>Browse and transfer files between your Mac computer and your Android device.</string>
 			<key>developer</key>

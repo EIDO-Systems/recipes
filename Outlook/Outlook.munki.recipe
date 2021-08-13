@@ -33,9 +33,7 @@
 				<string>provisioning</string>
 			</array>
 			<key>categories</key>
-			<array>
-				<string>Productivity</string>
-			</array>
+			<string>Productivity</string>
 			<key>description</key>
 			<string>Outlook desktop client from Microsoft.</string>
 			<key>developer</key>

@@ -27,10 +27,8 @@
 			<array>
 				<string>default</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Productivity</string>
-			</array>
+			<key>category</key>
+			<string>Productivity</string>
 			<key>description</key>
 			<string>Free digital notebook from Microsoft.</string>
 			<key>developer</key>

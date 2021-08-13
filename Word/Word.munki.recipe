@@ -32,10 +32,8 @@
 				<string>default</string>
 				<string>provsioning</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Productivity</string>
-			</array>
+			<key>category</key>
+			<string>Productivity</string>
 			<key>description</key>
 			<string>Word processor from Microsoft.</string>
 			<key>developer</key>

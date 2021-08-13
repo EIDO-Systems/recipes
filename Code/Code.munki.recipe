@@ -22,10 +22,8 @@
 			<array>
 				<string>default</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Tools</string>
-			</array>
+			<key>category</key>
+			<string>Tools</string>
 			<key>description</key>
 			<string>Simple, extensible text editor.</string>
 			<key>developer</key>

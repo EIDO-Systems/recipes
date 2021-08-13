@@ -21,10 +21,8 @@
 				<string>default</string>
 				<string>provisioning</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Security</string>
-			</array>
+			<key>category</key>
+			<string>Security</string>
 			<key>description</key>
 			<string>Examines the contents of macOS installer files (.pkg), including files and scripts.</string>
 			<key>developer</key>

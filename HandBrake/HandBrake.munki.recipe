@@ -20,10 +20,8 @@
 			<array>
 				<string>default</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Creative &amp; Media</string>
-			</array>
+			<key>category</key>
+			<string>Creative &amp; Media</string>
 			<key>description</key>
 			<string>Versatile video encoder; convert any source to MPEG-4 and more.</string>
 			<key>developer</key>

@@ -31,10 +31,8 @@
 			<array>
 				<string>default</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Productivity</string>
-			</array>
+			<key>category</key>
+			<string>Productivity</string>
 			<key>description</key>
 			<string>Quickly create, edit, view, present or share presentations.</string>
 			<key>developer</key>

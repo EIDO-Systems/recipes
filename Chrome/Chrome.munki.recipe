@@ -27,10 +27,8 @@
 				<string>Google Chrome Helper (GPU).app</string>
 				<string>Google Chrome Helper.app</string>
 			</array>
-			<key>categories</key>
-			<array>
-				<string>Productivity</string>
-			</array>
+			<key>category</key>
+			<string>Productivity</string>
 			<key>catalogs</key>
 			<array>
 				<string>default</string>
@@ -39,7 +37,7 @@
 			<key>description</key>
 			<string>Modern and fast Web browser.</string>
 			<key>developer</key>
-			<string>Google LLC</string>
+			<string>Google, Inc.</string>
 			<key>display_name</key>
 			<string>Chrome</string>
 			<key>name</key>
