@@ -28,7 +28,7 @@
 			<array>
 				<string>default</string>
 			</array>
-			<key>categories</key>
+			<key>category</key>
 			<string>Tools</string>
 			<key>description</key>
 			<string>Microsoft Remote Desktop connection client.</string>

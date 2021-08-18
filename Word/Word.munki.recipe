@@ -30,7 +30,7 @@
 			<key>catalogs</key>
 			<array>
 				<string>default</string>
-				<string>provsioning</string>
+				<string>provisioning</string>
 			</array>
 			<key>category</key>
 			<string>Productivity</string>
