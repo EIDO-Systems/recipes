@@ -34,7 +34,7 @@
 			<key>description</key>
 			<string>Cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems.</string>
 			<key>developer</key>
-			<string>Zoom Video Communications, Inc.</string>
+			<string>Zoom Video Communications Inc.</string>
 			<key>display_name</key>
 			<string>zoom.us</string>
 			<key>name</key>

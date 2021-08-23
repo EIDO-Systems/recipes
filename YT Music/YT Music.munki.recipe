@@ -21,7 +21,7 @@
 				<string>default</string>
 			</array>
 			<key>category</key>
-			<string>Misc.</string>
+			<string>Misc</string>
 			<key>description</key>
 			<string>YouTube Music client application for macOS.</string>
 			<key>developer</key>

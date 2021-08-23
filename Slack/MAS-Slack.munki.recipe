@@ -27,7 +27,7 @@
 			<key>description</key>
 			<string>Collaborative communication app.</string>
 			<key>developer</key>
-			<string></string>
+			<string>Slack Inc.</string>
 			<key>display_name</key>
 			<string>Slack</string>
 			<key>name</key>

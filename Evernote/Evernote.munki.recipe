@@ -16,6 +16,8 @@
 			<array>
 				<string>default</string>
 			</array>
+			<key>developer</key>
+			<string>Evernote Inc.</string>
 			<key>category</key>
 			<string>Misc.</string>
 			<key>description</key>

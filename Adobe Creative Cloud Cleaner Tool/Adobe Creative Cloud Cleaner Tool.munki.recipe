@@ -25,7 +25,7 @@
 			<key>description</key>
 			<string>Removes all installed Adobe Creative Cloud applications, and all associated configuration files. Helpful for troubleshooting Adobe CC issues such as failed upgrades or sign-ins.</string>
 			<key>developer</key>
-			<string>Adobe Systems, Inc.</string>
+			<string>Adobe Systems Inc.</string>
 			<key>display_name</key>
 			<string>Adobe Creative Cloud Cleaner Tool</string>
 			<key>name</key>
