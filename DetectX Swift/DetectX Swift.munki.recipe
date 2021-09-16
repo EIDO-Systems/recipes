@@ -19,7 +19,7 @@
 			<key>catalogs</key>
 			<array>
 				<string>default</string>
-				<string>provisioning</string>
+				<!--<string>provisioning</string>-->
 			</array>
 			<key>category</key>
 			<string>Security</string>
