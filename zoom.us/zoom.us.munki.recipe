@@ -19,22 +19,20 @@
 			<key>blocking_applications</key>
 			<array>
 				<string>zoom.us.app</string>
-				<string>caphost.app</string>
-				<string>ZoomUninstaller.app</string>
-				<string>ZMScreenshot.app</string>
-				<string>Transcode.app</string>
 				<string>CptHost.app</string>
+				<string>ZoomUninstaller.app</string>
+				<string>Transcode.app</string>
+				<string>caphost.app</string>
+				<string>ZMScreenshot.app</string>
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>default</string>
+				<string>testing</string>
 			</array>
-			<key>category</key>
-			<string>Chat &amp; Video</string>
 			<key>description</key>
 			<string>Cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems.</string>
 			<key>developer</key>
-			<string>Zoom Video Communications Inc.</string>
+			<string>Zoom Video Communications, Inc.</string>
 			<key>display_name</key>
 			<string>zoom.us</string>
 			<key>name</key>
