@@ -27,8 +27,10 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>default</string>
 			</array>
+			<key>category</key>
+			<string>Chat &amp; Video</string>
 			<key>description</key>
 			<string>Cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems.</string>
 			<key>developer</key>
