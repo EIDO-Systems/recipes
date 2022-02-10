@@ -21,7 +21,6 @@
 				<string>OneDrive Updater.app</string>
 				<string>StandaloneUpdater.app</string>
 				<string>OneDrive Launcher.app</string>
-				<string>OneDrive.app</string>
 				<string>OneDrive File Launcher.app</string>
 				<string>Launcher Disabler.app</string>
 			</array>
@@ -40,6 +39,14 @@
 			<string>OneDrive</string>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>preinstall_script</key>
+            <string>#!/bin/bash
+                kill -HUP "$( pgrep -x OneDrive )"
+			</string>
+			<key>postinstall_script</key>
+            <string>#!/bin/bash
+                open -a OneDrive.app
+            </string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>

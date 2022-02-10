@@ -2,67 +2,66 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Identifier</key>
-	<string>local.munki.Spotify</string>
-	<key>Input</key>
-	<dict>
-		<key>DOWNLOAD_URL</key>
-		<string>https://download.scdn.co/Spotify.dmg</string>
-		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
-		<key>NAME</key>
-		<string>Spotify</string>
-		<key>pkginfo</key>
-		<dict>
-			<key>catalogs</key>
-			<array>
-				<string>default</string>
-			</array>
+    <key>Description</key>
+    <string>Downloads the latest Spotify and imports into Munki.
+
+Note: 1.0.50 and 1.0.51 versions of Spotify has mode 744 for its executables,
+causing the app to not launch for any user except the user who installed
+it, root in the case of Munki. Currently a postinstall_script fixes this issue
+by adding group and owner +x to these files.
+
+Related GitHub issue:
+https://github.com/autopkg/recipes/issues/196
+</string>
+    <key>Identifier</key>
+    <string>com.github.autopkg.munki.Spotify</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>Spotify</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>apps</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>default</string>
+            </array>
 			<key>category</key>
-			<string>Misc</string>
-			<key>description</key>
-			<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
-			<key>display_name</key>
-			<string>Spotify</string>
-			<key>name</key>
-			<string>%NAME%</string>
-			<key>postinstall_script</key>
-			<string>#!/bin/bash
+			<string>Creative &amp; Media</string>
+            <key>description</key>
+            <string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+            <key>display_name</key>
+            <string>Spotify</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>postinstall_script</key>
+            <string>#!/bin/bash
                 # Add directory traversal for the entire application and ensure 
                 # all executables are executable by group and other
                 /bin/chmod -R go+rX /Applications/Spotify.app
             </string>
-			<key>unattended_install</key>
-			<true/>
-		</dict>
-	</dict>
-	<key>ParentRecipe</key>
-	<string>com.github.autopkg.munki.Spotify</string>
-	<key>ParentRecipeTrustInfo</key>
-	<dict>
-		<key>non_core_processors</key>
-		<dict/>
-		<key>parent_recipes</key>
-		<dict>
-			<key>com.github.autopkg.download.Spotify</key>
-			<dict>
-				<key>git_hash</key>
-				<string>4f69d86d0d09b299d47b0f0197a03d97a67ad4ef</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Spotify/Spotify.download.recipe</string>
-				<key>sha256_hash</key>
-				<string>71b0fbf50f45a1b55b1cb483811bd129c590bc37e1bbed17defd1ad5609f5169</string>
-			</dict>
-			<key>com.github.autopkg.munki.Spotify</key>
-			<dict>
-				<key>git_hash</key>
-				<string>e77d8193751dd3969b7d960139deb230a8008282</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Spotify/Spotify.munki.recipe</string>
-				<key>sha256_hash</key>
-				<string>07138fa4cbdd3e9f2a13765105722d375bb3257365c94a177dba7c63a60fe14b</string>
-			</dict>
-		</dict>
-	</dict>
+            <key>unattended_install</key>
+            <true/>
+        </dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.2.0</string>
+    <key>ParentRecipe</key>
+    <string>com.github.autopkg.download.Spotify</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>pkg_path</key>
+                <string>%pathname%</string>
+                <key>repo_subdirectory</key>
+                <string>%MUNKI_REPO_SUBDIR%</string>
+            </dict>
+            <key>Processor</key>
+            <string>MunkiImporter</string>
+        </dict>
+    </array>
 </dict>
 </plist>

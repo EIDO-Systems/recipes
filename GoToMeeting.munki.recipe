@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.GoToMeeting</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>GoToMeeting</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>default</string>
+			</array>
+			<key>category</key>
+			<string>Chat &amp; Video</string>
+			<key>description</key>
+			<string>Online meeting, desktop sharing, and video conferencing software.</string>
+			<key>developer</key>
+			<string>LogMeIn</string>
+			<key>display_name</key>
+			<string>GoToMeeting</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>preinstall_script</key>
+			<string>#!/bin/bash
+
+echo "Removing old copies of GoToMeeting from the /Applications folder..."
+
+rm -rf /Applications/GoToMeeting\ \(*\).app
+
+if [[ -d "/Applications/GoToMeeting" ]]; then
+    rm -rf "/Applications/GoToMeeting"
+fi
+
+if [[ -f "/Applications/GoToMeeting.app/Contents/Info.plist" ]]; then
+    rm -rf "/Applications/GoToMeeting.app"
+fi
+
+exit 0
+            </string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.munki.GoToMeeting</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>GoToMeetingURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5086ac17f8ae657b405c440f916427311c10397e</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/GoToMeeting/GoToMeetingURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>f86f2a4749091a95bd33b57ea0ba36546ad8e9c44d498ea397a75853d9d67e88</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.GoToMeeting</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1b8b9c15f3a3e92de5e7e5a54a6a2e44431832d6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/GoToMeeting/GoToMeeting.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>cee386c288a54a18d3255bbc6fe6fc5a0c475309f2276f9c2c3318b43a338614</string>
+			</dict>
+			<key>com.github.homebysix.munki.GoToMeeting</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1b8b9c15f3a3e92de5e7e5a54a6a2e44431832d6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/GoToMeeting/GoToMeeting.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>2b762c086d57cc974ca2a80db6d4114ef9b1d836baaefc24ef0805e7263656c3</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
